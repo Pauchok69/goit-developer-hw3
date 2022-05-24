@@ -1,7 +1,7 @@
 CREATE TABLE developers (
     `id` INT AUTO_INCREMENT PRIMARY KEY,
     `first_name` VARCHAR(60) NOT NULL,
-    `second_name` VARCHAR(60) NOT NULL,
+    `last_name` VARCHAR(60) NOT NULL,
     `birth_date` DATETIME,
     `status` BOOLEAN NOT NULL
 );
@@ -34,7 +34,7 @@ CREATE TABLE companies (
 CREATE TABLE customers (
     `id` INT AUTO_INCREMENT PRIMARY KEY,
     `first_name` VARCHAR(128) NOT NULL,
-    `second_name` VARCHAR(128) NOT NULL,
+    `last_name` VARCHAR(128) NOT NULL,
     `status` BOOLEAN NOT NULL
 );
   
