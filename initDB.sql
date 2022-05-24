@@ -43,7 +43,7 @@ CREATE TABLE projects (
     `company_id` INT NOT NULL,
     `customer_id` INT NOT NULL,
     `name` VARCHAR(128) NOT NULL,
-    `budget` FLOAT(2) NOT NULL,
+    `budget` FLOAT(12,2) NOT NULL,
     `status` BOOLEAN NOT NULL,
     `date_start` DATE NOT NULL,
     `date_end` DATE,
